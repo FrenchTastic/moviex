@@ -134,9 +134,112 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view alpha="0.69999999999999996" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SBc-ZN-jpq">
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SBc-ZN-jpq">
                                 <rect key="frame" x="0.0" y="179" width="600" height="421"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="k9E-nQ-ZHz">
+                                        <rect key="frame" x="8" y="8" width="584" height="298"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR THOUGHTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZ2-OE-Tc2">
+                                                <rect key="frame" x="0.0" y="0.0" width="172" height="32"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="172" id="QXK-qV-MAd"/>
+                                                    <constraint firstAttribute="height" constant="32" id="X4V-6T-Kl8"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3v-e5-lHP">
+                                                <rect key="frame" x="0.0" y="32" width="584" height="91"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="91" id="MXc-Bt-Yzs"/>
+                                                </constraints>
+                                                <mutableString key="text">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+
+</mutableString>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IMDB SYNOPSIS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OfD-UE-RcF">
+                                                <rect key="frame" x="0.0" y="123" width="148" height="32"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="172" id="kQR-7e-CKP"/>
+                                                    <constraint firstAttribute="height" constant="32" id="whe-C6-OLe"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="kQR-7e-CKP"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ud0-ia-Edx">
+                                                <rect key="frame" x="0.0" y="155" width="584" height="90"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="90" id="duY-B1-SaF"/>
+                                                </constraints>
+                                                <mutableString key="text">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+
+</mutableString>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IMDB URL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gie-gO-Ckd">
+                                                <rect key="frame" x="0.0" y="245" width="254" height="32"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="172" id="MeJ-mf-CSF"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="32" id="VxI-xP-kFW"/>
+                                                    <constraint firstAttribute="height" constant="32" id="Zuv-Jw-67f"/>
+                                                    <constraint firstAttribute="width" constant="254" id="luB-qC-m5Q"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                                <color key="textColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="MeJ-mf-CSF"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="hhhhhhhhhh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DPE-Bg-ul7">
+                                                <rect key="frame" x="0.0" y="277" width="92" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="73" id="EcB-bh-MXK"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="EcB-bh-MXK"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="k9E-nQ-ZHz" secondAttribute="trailing" constant="8" id="2YW-Ja-zoj"/>
+                                    <constraint firstItem="k9E-nQ-ZHz" firstAttribute="leading" secondItem="SBc-ZN-jpq" secondAttribute="leading" constant="8" id="3gm-zG-FVK"/>
+                                    <constraint firstItem="k9E-nQ-ZHz" firstAttribute="centerX" secondItem="SBc-ZN-jpq" secondAttribute="centerX" id="NEC-oX-qRm"/>
+                                    <constraint firstItem="k9E-nQ-ZHz" firstAttribute="top" secondItem="SBc-ZN-jpq" secondAttribute="top" constant="8" id="SNl-7C-0hw"/>
+                                    <constraint firstAttribute="height" constant="421" id="UHF-Tj-COC"/>
+                                    <constraint firstAttribute="bottom" secondItem="k9E-nQ-ZHz" secondAttribute="bottom" constant="8" id="pl3-Ht-xj7"/>
+                                    <constraint firstItem="k9E-nQ-ZHz" firstAttribute="height" secondItem="SBc-ZN-jpq" secondAttribute="height" id="tbx-8c-nyJ"/>
+                                    <constraint firstItem="k9E-nQ-ZHz" firstAttribute="centerY" secondItem="SBc-ZN-jpq" secondAttribute="centerY" id="twv-hL-Z1L"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="UHF-Tj-COC"/>
+                                        <exclude reference="tbx-8c-nyJ"/>
+                                    </mask>
+                                </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -153,6 +256,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imdbSynposis" destination="ud0-ia-Edx" id="cP0-me-Rx1"/>
+                        <outlet property="imdbUrl" destination="DPE-Bg-ul7" id="NGU-hW-HId"/>
+                        <outlet property="movieDesc" destination="C3v-e5-lHP" id="kRI-Xt-ivM"/>
                         <outlet property="movieImg" destination="BDy-4X-px7" id="K4X-xw-1bk"/>
                         <outlet property="movieTitle" destination="DrE-yz-xpJ" id="ZEc-oN-eB4"/>
                     </connections>

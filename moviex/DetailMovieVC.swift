@@ -15,13 +15,18 @@ class DetailMovieVC: UIViewController {
     @IBOutlet weak var movieImg: UIImageView!
     
     @IBOutlet weak var movieTitle: UILabel!
+    @IBOutlet weak var movieDesc: UILabel!
+    @IBOutlet weak var imdbSynposis: UILabel!
+    @IBOutlet weak var imdbUrl: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         print(movie.title)
         movieImg.image = movie.getMovieImage()
         movieTitle.text = movie.title
-        // Do any additional setup after loading the view.
+        movieDesc.text = movie.desc
+        imdbUrl.text = movie.imdbUrl
+        imdbSynposis.text = movie.imdbSynopsis
     }
 
     override func didReceiveMemoryWarning() {
